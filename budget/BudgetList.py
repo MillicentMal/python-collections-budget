@@ -1,3 +1,5 @@
+import Expense
+
 class BudgetList:
     def __main__():
         myBudgetList = BudgetList(1200)
