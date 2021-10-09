@@ -1,4 +1,9 @@
 class BudgetList:
+    def main():
+        myBudgetList = BudgetList()
+        budget = 1200
+        myBudgetList.append(budget)
+        
     def __init__(self, budget):
         self.budget = budget
         self.sum_expenses = 0
@@ -17,7 +22,4 @@ class BudgetList:
     def __len__(self):
         return len(self.expenses), len(self.overages)
 
-    def main():
-        myBudgetList = BudgetList()
-        budget = 1200
-        myBudgetList.append(budget)
+    
