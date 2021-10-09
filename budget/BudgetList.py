@@ -1,5 +1,5 @@
 class BudgetList:
-    def main():
+    def __main__():
         myBudgetList = BudgetList(1200)
         
     def __init__(self, budget):
