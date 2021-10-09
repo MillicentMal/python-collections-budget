@@ -1,8 +1,8 @@
 class BudgetList:
     def __init__(self, budget):
         self.budget = budget
-        self.sum_expenses = 0
-        self.expenses = list()
+        sum_expenses = 0
+        expenses = list()
         self.sum_overages = 0
         self.overages = list()
 
