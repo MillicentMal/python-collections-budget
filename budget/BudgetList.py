@@ -1,8 +1,6 @@
 class BudgetList:
     def main():
-        myBudgetList = BudgetList()
-        budget = 1200
-        myBudgetList.append(budget)
+        myBudgetList = BudgetList(1200)
         
     def __init__(self, budget):
         self.budget = budget
