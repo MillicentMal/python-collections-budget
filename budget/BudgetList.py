@@ -1,4 +1,4 @@
-import Expense
+from . import Expense
 
 class BudgetList:
     def __main__():
